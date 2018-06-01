@@ -1,0 +1,506 @@
+.kuang {
+  width: 508px;
+  height: 136px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: 0 auto;
+  top: 50px;
+  z-index: 4422;
+  padding: 50px 10px 50px;
+  background: #fff;
+  border: 1px solid #e2d3aa;
+  overflow: visible;
+  border-radius: 8px;
+  display: none; }
+  .kuang .sum {
+    width: 12px;
+    height: 12px;
+    background: url(../images/index/pic1.png);
+    background-position: -201px 0;
+    position: absolute;
+    top: 11px;
+    right: 11px;
+    cursor: pointer; }
+  .kuang h3 {
+    font-size: 22px;
+    font-weight: normal;
+    height: 57px;
+    width: 310px;
+    line-height: 57px;
+    color: #333;
+    margin: 0 auto;
+    font-family: Microsoft YaHei; }
+    .kuang h3 span:nth-child(1) {
+      display: block;
+      width: 25px;
+      height: 22px;
+      background: url(../images/index/pic.gif);
+      background-position: -7px -7px;
+      float: left; }
+    .kuang h3 span:nth-of-type(2) {
+      display: block;
+      float: left;
+      margin-top: -40px;
+      margin-left: 38px; }
+  .kuang p:nth-of-type(1) {
+    display: block;
+    width: 508px;
+    float: left;
+    color: red;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 20px; }
+    .kuang p:nth-of-type(1) b {
+      color: #000; }
+  .kuang p:nth-of-type(2) {
+    display: block;
+    color: blue;
+    float: left;
+    margin-left: 150px; }
+    .kuang p:nth-of-type(2) a:nth-of-type(1) {
+      display: inline-block;
+      width: 108px;
+      height: 28px;
+      line-height: 28px;
+      text-align: center;
+      background: #e02347;
+      border: 1px solid #b81b39;
+      border-radius: 8px;
+      color: #fff; }
+    .kuang p:nth-of-type(2) a:nth-of-type(2) {
+      color: #ecb65e;
+      margin-left: 16px;
+      font-size: 12px; }
+
+.ban_wrap {
+  position: relative;
+  z-index: -100; }
+  .ban_wrap #banner {
+    width: 100%;
+    height: 360px;
+    position: relative; }
+    .ban_wrap #banner div {
+      width: 100%;
+      height: 360px;
+      position: absolute;
+      top: 0;
+      left: 0; }
+    .ban_wrap #banner .banner1 {
+      background: url(../images/index/banner1.jpg) top center no-repeat; }
+    .ban_wrap #banner .banner2 {
+      background: url(../images/index/banner2.jpg) top center no-repeat; }
+    .ban_wrap #banner .banner3 {
+      background: url(../images/index/banner3.jpg) top center no-repeat; }
+    .ban_wrap #banner .banner4 {
+      background: url(../images/index/banner4.jpg) top center no-repeat; }
+  .ban_wrap .nav ul {
+    height: 14px;
+    width: 100px;
+    position: absolute;
+    top: 340px;
+    left: 70%;
+    padding-left: 100px; }
+    .ban_wrap .nav ul li {
+      height: 14px;
+      width: 14px;
+      background: #000;
+      float: left;
+      margin-right: 10px; }
+    .ban_wrap .nav ul .select {
+      background: #fff; }
+
+.mifeng {
+  width: 144px;
+  height: 208px;
+  background: url(../images/index/pic.png);
+  background-position: -410px -44px;
+  display: none;
+  position: fixed;
+  margin-left: -19px;
+  top: 180px; }
+
+.main {
+  width: 1000px;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto; }
+  .main .main1 {
+    width: 100%;
+    float: left; }
+    .main .main1 .ding {
+      display: none;
+      width: 50px;
+      height: 60px;
+      border: 1px solid #ccc;
+      position: fixed;
+      cursor: pointer;
+      background: #fff;
+      top: 300px;
+      left: 50%;
+      margin-left: 520px; }
+      .main .main1 .ding span {
+        display: block;
+        width: 27px;
+        height: 39px;
+        background: url(../images/index/pic3.png) no-repeat;
+        background-position: -230px -242px;
+        margin: 10px 12px; }
+      .main .main1 .ding:hover {
+        background: #e5e4e4; }
+    .main .main1 .ti {
+      width: 100%;
+      height: 42px;
+      padding: 10px 0 10px;
+      border-bottom: solid 2px #f62648; }
+      .main .main1 .ti h3 {
+        width: 118px;
+        height: 40px;
+        background: url(../images/index/pic3.png) no-repeat;
+        background-position: 0 -24px;
+        float: left; }
+      .main .main1 .ti span {
+        display: block;
+        float: left;
+        margin-left: 23px;
+        color: #999;
+        font-size: 18px; }
+        .main .main1 .ti span em {
+          font-style: normal;
+          color: red;
+          padding-top: 14px;
+          display: inline-block; }
+    .main .main1 #content1 {
+      height: auto;
+      width: 100%; }
+      .main .main1 #content1 div {
+        float: left;
+        box-sizing: content-box;
+        font-family: tahoma,arial;
+        position: relative;
+        background: #fff; }
+        .main .main1 #content1 div span:nth-of-type(1) {
+          display: block;
+          width: 46px;
+          height: 59px;
+          background: url(../images/index/pic3.png);
+          position: absolute;
+          top: 25px;
+          left: 20px; }
+      .main .main1 #content1 div:nth-of-type(1), .main .main1 #content1 div:nth-of-type(2) {
+        width: 500px;
+        height: 300px;
+        border-right: 1px solid #e3e3e3; }
+        .main .main1 #content1 div:nth-of-type(1):hover a em, .main .main1 #content1 div:nth-of-type(2):hover a em {
+          display: block; }
+        .main .main1 #content1 div:nth-of-type(1) span:nth-of-type(1), .main .main1 #content1 div:nth-of-type(2) span:nth-of-type(1) {
+          background-position: -137px -243px; }
+        .main .main1 #content1 div:nth-of-type(1) p, .main .main1 #content1 div:nth-of-type(2) p {
+          display: block;
+          width: 260px;
+          height: 47px;
+          font-size: 18px;
+          margin: 140px 0 20px 20px; }
+          .main .main1 #content1 div:nth-of-type(1) p > em, .main .main1 #content1 div:nth-of-type(2) p > em {
+            color: red;
+            font-style: normal; }
+        .main .main1 #content1 div:nth-of-type(1) span, .main .main1 #content1 div:nth-of-type(2) span {
+          font-style: normal;
+          margin-left: 20px; }
+          .main .main1 #content1 div:nth-of-type(1) span b, .main .main1 #content1 div:nth-of-type(2) span b {
+            font-size: 26px;
+            font-weight: 100; }
+          .main .main1 #content1 div:nth-of-type(1) span em, .main .main1 #content1 div:nth-of-type(2) span em {
+            font-size: 15px;
+            color: #999999;
+            text-decoration: line-through; }
+        .main .main1 #content1 div:nth-of-type(1) input, .main .main1 #content1 div:nth-of-type(2) input {
+          width: 96px;
+          height: 28px;
+          display: block;
+          background: #ff0353;
+          border: 0;
+          color: #fff;
+          font-size: 14px;
+          margin-left: 20px;
+          line-height: 27px;
+          border-radius: 4px;
+          cursor: pointer; }
+        .main .main1 #content1 div:nth-of-type(1) a, .main .main1 #content1 div:nth-of-type(2) a {
+          display: block;
+          position: absolute;
+          top: 20px;
+          right: 20px;
+          width: 202px;
+          height: 257px; }
+          .main .main1 #content1 div:nth-of-type(1) a img, .main .main1 #content1 div:nth-of-type(2) a img {
+            width: 202px;
+            height: 257px;
+            position: absolute;
+            top: 0;
+            left: 0; }
+          .main .main1 #content1 div:nth-of-type(1) a p, .main .main1 #content1 div:nth-of-type(2) a p {
+            width: 202px;
+            height: 257px;
+            position: absolute;
+            top: -140px;
+            left: -20px;
+            display: none;
+            z-index: 222;
+            background: rgba(255, 255, 255, 0.5); }
+      .main .main1 #content1 div:nth-of-type(2) {
+        border-right: 0;
+        width: 499px; }
+        .main .main1 #content1 div:nth-of-type(2) span:nth-of-type(1) {
+          background-position: -184px -243px; }
+      .main .main1 #content1 div:nth-of-type(3), .main .main1 #content1 div:nth-of-type(4), .main .main1 #content1 div:nth-of-type(5) {
+        width: 333px;
+        height: 420px;
+        border-right: 1px solid #e3e3e3;
+        border-top: 1px solid #e3e3e3; }
+        .main .main1 #content1 div:nth-of-type(3) span:nth-of-type(1), .main .main1 #content1 div:nth-of-type(4) span:nth-of-type(1), .main .main1 #content1 div:nth-of-type(5) span:nth-of-type(1) {
+          background-position: -137px -302px; }
+        .main .main1 #content1 div:nth-of-type(3) span:nth-of-type(5), .main .main1 #content1 div:nth-of-type(4) span:nth-of-type(5), .main .main1 #content1 div:nth-of-type(5) span:nth-of-type(5) {
+          background-position: -137px -362px; }
+        .main .main1 #content1 div:nth-of-type(3) p, .main .main1 #content1 div:nth-of-type(4) p, .main .main1 #content1 div:nth-of-type(5) p {
+          display: block;
+          position: absolute;
+          width: 260px;
+          height: 47px;
+          font-size: 18px;
+          top: 278px;
+          left: 22px; }
+          .main .main1 #content1 div:nth-of-type(3) p > em, .main .main1 #content1 div:nth-of-type(4) p > em, .main .main1 #content1 div:nth-of-type(5) p > em {
+            color: red;
+            font-style: normal; }
+        .main .main1 #content1 div:nth-of-type(3) span:nth-of-type(2), .main .main1 #content1 div:nth-of-type(4) span:nth-of-type(2), .main .main1 #content1 div:nth-of-type(5) span:nth-of-type(2) {
+          font-style: normal;
+          position: absolute;
+          top: 370px;
+          left: 20px; }
+          .main .main1 #content1 div:nth-of-type(3) span:nth-of-type(2) b, .main .main1 #content1 div:nth-of-type(4) span:nth-of-type(2) b, .main .main1 #content1 div:nth-of-type(5) span:nth-of-type(2) b {
+            font-size: 26px;
+            font-weight: 100; }
+          .main .main1 #content1 div:nth-of-type(3) span:nth-of-type(2) em, .main .main1 #content1 div:nth-of-type(4) span:nth-of-type(2) em, .main .main1 #content1 div:nth-of-type(5) span:nth-of-type(2) em {
+            font-size: 15px;
+            color: #999999;
+            text-decoration: line-through; }
+        .main .main1 #content1 div:nth-of-type(3) a, .main .main1 #content1 div:nth-of-type(4) a, .main .main1 #content1 div:nth-of-type(5) a {
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          margin: 0 auto;
+          width: 150px;
+          height: 212px;
+          top: 40px; }
+          .main .main1 #content1 div:nth-of-type(3) a img, .main .main1 #content1 div:nth-of-type(4) a img, .main .main1 #content1 div:nth-of-type(5) a img {
+            width: 150px;
+            height: 212px;
+            position: absolute; }
+          .main .main1 #content1 div:nth-of-type(3) a p, .main .main1 #content1 div:nth-of-type(4) a p, .main .main1 #content1 div:nth-of-type(5) a p {
+            width: 202px;
+            height: 257px;
+            position: absolute;
+            top: 0;
+            left: -20px;
+            display: none;
+            z-index: 222;
+            background: rgba(255, 255, 255, 0.5); }
+        .main .main1 #content1 div:nth-of-type(3) input, .main .main1 #content1 div:nth-of-type(4) input, .main .main1 #content1 div:nth-of-type(5) input {
+          width: 96px;
+          height: 28px;
+          display: block;
+          position: absolute;
+          background: #ff0353;
+          border: 0;
+          color: #fff;
+          font-size: 14px;
+          top: 374px;
+          right: 24px;
+          line-height: 27px;
+          border-radius: 4px;
+          cursor: pointer; }
+      .main .main1 #content1 div:nth-of-type(4) span:nth-of-type(1) {
+        background-position: -184px -302px; }
+      .main .main1 #content1 div:nth-of-type(5) {
+        border-right: 0;
+        width: 332px; }
+        .main .main1 #content1 div:nth-of-type(5) span:nth-of-type(1) {
+          background-position: -137px -362px; }
+        .main .main1 #content1 div:nth-of-type(5):hover a em {
+          display: block; }
+  .main .main2 {
+    height: auto;
+    width: 100%;
+    float: left; }
+    .main .main2 .ti {
+      width: 100%;
+      height: 42px;
+      padding: 10px 0 10px;
+      border-bottom: solid 2px #f99c17;
+      margin-bottom: 10px; }
+      .main .main2 .ti h3 {
+        width: 118px;
+        height: 40px;
+        background: url(../images/index/pic3.png) no-repeat;
+        background-position: 0 -64px;
+        float: left; }
+      .main .main2 .ti span {
+        display: block;
+        float: left;
+        margin-left: 23px;
+        color: #999;
+        font-size: 18px; }
+        .main .main2 .ti span em {
+          font-style: normal;
+          color: red;
+          padding-top: 14px;
+          display: inline-block; }
+      .main .main2 .ti a {
+        color: #999999;
+        float: right;
+        display: inline-block;
+        margin-top: 20px;
+        font-size: 16px; }
+    .main .main2 #content2 {
+      height: auto;
+      overflow: hidden; }
+      .main .main2 #content2 div {
+        width: 488px;
+        height: 251px;
+        float: left;
+        margin: 0 6px 20px;
+        position: relative; }
+        .main .main2 #content2 div a {
+          display: block;
+          width: 488px;
+          height: 216px; }
+          .main .main2 #content2 div a img {
+            border-radius: 3px;
+            width: 488px;
+            height: 216px; }
+            .main .main2 #content2 div a img:hover {
+              box-shadow: 0 0 4px 4px #E3E3E3;
+              transition: box-shadow .2s; }
+        .main .main2 #content2 div p {
+          display: block;
+          width: 488px;
+          height: 32px;
+          line-height: 32px;
+          background-color: rgba(0, 0, 0, 0.6);
+          position: absolute;
+          top: 184px;
+          z-index: 2; }
+          .main .main2 #content2 div p span {
+            color: #fff;
+            font-size: 13px;
+            padding-left: 8px; }
+        .main .main2 #content2 div em {
+          font-style: normal;
+          display: block;
+          font-size: 14px;
+          color: #4d4d4d;
+          line-height: 21px;
+          height: 21px;
+          padding: 12px 8px 2px; }
+  .main .main3 {
+    height: auto;
+    width: 100%;
+    float: left; }
+    .main .main3 .ti {
+      width: 100%;
+      height: 42px;
+      padding: 10px 0 10px;
+      border-bottom: solid 2px #c835bf;
+      margin-bottom: 15px; }
+      .main .main3 .ti h3 {
+        width: 118px;
+        height: 40px;
+        background: url(../images/index/pic3.png) no-repeat;
+        background-position: 0 -264px;
+        float: left; }
+    .main .main3 #content3 {
+      height: auto;
+      width: 1000px; }
+      .main .main3 #content3 div {
+        width: 227px;
+        height: 340;
+        background: #fff;
+        float: left;
+        font-family: tahoma,arial;
+        position: relative;
+        margin-right: 30px;
+        margin-bottom: 30px; }
+        .main .main3 #content3 div a {
+          display: block;
+          width: 200px;
+          height: 253px;
+          margin: 0 auto;
+          position: relative; }
+          .main .main3 #content3 div a .yin {
+            width: 200px;
+            height: 253px;
+            display: none;
+            background: rgba(255, 255, 255, 0.5);
+            z-index: 33;
+            position: absolute;
+            top: 0;
+            left: 0; }
+          .main .main3 #content3 div a img {
+            width: 200px;
+            height: 253px; }
+        .main .main3 #content3 div p {
+          width: 200px;
+          height: 38px;
+          line-height: 18px;
+          padding-top: 5px;
+          font-size: 14px;
+          overflow: hidden;
+          margin: 0 auto; }
+          .main .main3 #content3 div p > em {
+            color: red;
+            font-style: normal; }
+        .main .main3 #content3 div span {
+          width: 200px;
+          height: 30px;
+          margin: 0 auto;
+          display: block;
+          line-height: 30px;
+          padding-top: 8px; }
+          .main .main3 #content3 div span b {
+            font-size: 16px;
+            color: #666;
+            font-weight: 100; }
+            .main .main3 #content3 div span b em {
+              font-style: normal;
+              padding-left: 5px;
+              line-height: 30px;
+              color: #999;
+              font-size: 12px;
+              text-decoration: line-through; }
+        .main .main3 #content3 div input {
+          width: 96px;
+          height: 28px;
+          display: block;
+          position: absolute;
+          left: 116px;
+          bottom: 10px;
+          background: #ff0353;
+          border: 0;
+          color: #fff;
+          font-size: 14px;
+          line-height: 27px;
+          border-radius: 4px;
+          cursor: pointer; }
+
+.bann_foot {
+  width: 100%;
+  height: 304px;
+  background: url(../images/index/foot-ban.jpg) no-repeat center #f62648;
+  margin-top: 60px; }

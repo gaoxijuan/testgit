@@ -1,0 +1,146 @@
+@charset "UTF-8";
+.logo_wrap {
+  width: 100%;
+  height: 107px;
+  background: #fbe1d3; }
+  .logo_wrap .logo {
+    width: 1000px;
+    height: 90px;
+    margin-top: 10px;
+    overflow: hidden;
+    margin: 0 auto;
+    background: url(../images/index/pic1.png) -231px -198px no-repeat; }
+
+.rejest_wrap {
+  width: 100%;
+  height: 690px;
+  background: #fbe1d3; }
+  .rejest_wrap .rejest {
+    width: 1000px;
+    margin: 0 auto; }
+    .rejest_wrap .rejest .left {
+      width: 485px;
+      height: 624px;
+      background: url(../images/girl.jpg);
+      float: left; }
+    .rejest_wrap .rejest .login_content {
+      float: right;
+      background: #fff !important;
+      padding-bottom: 20px;
+      width: 304px;
+      padding: 28px 58px 0 58px;
+      height: 637px;
+      position: relative;
+      z-index: 5;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      border-radius: 8px;
+      -webkit-box-shadow: #ccc 0px 0px 5px;
+      -moz-box-shadow: #ccc 0px 0px 5px;
+      box-shadow: #ccc 0px 0px 5px; }
+      .rejest_wrap .rejest .login_content .loginTitle {
+        width: 100%;
+        height: 36px;
+        float: left; }
+        .rejest_wrap .rejest .login_content .loginTitle span {
+          display: block;
+          font-family: "Microsoft YaHei", 微软雅黑;
+          color: #333333;
+          font-size: 14px;
+          height: 36px; }
+          .rejest_wrap .rejest .login_content .loginTitle span a {
+            line-height: 28px; }
+        .rejest_wrap .rejest .login_content .loginTitle span:nth-of-type(1) {
+          width: 100px;
+          float: left;
+          font-size: 30px;
+          font-weight: bold;
+          display: block; }
+        .rejest_wrap .rejest .login_content .loginTitle span:nth-of-type(2) {
+          float: right;
+          margin-top: 5px; }
+          .rejest_wrap .rejest .login_content .loginTitle span:nth-of-type(2) a {
+            color: red;
+            padding-left: 10px; }
+      .rejest_wrap .rejest .login_content form {
+        width: 100%;
+        padding-top: 53px;
+        float: left;
+        overflow: hidden; }
+        .rejest_wrap .rejest .login_content form label {
+          float: left;
+          height: 24px;
+          line-height: 24px;
+          font-size: 12px;
+          color: #666; }
+        .rejest_wrap .rejest .login_content form input {
+          width: 298px;
+          height: 33px; }
+        .rejest_wrap .rejest .login_content form .demo {
+          width: 100%;
+          height: 86px;
+          position: relative; }
+          .rejest_wrap .rejest .login_content form .demo p {
+            position: absolute;
+            left: 0;
+            top: 65px;
+            font-size: 12px;
+            display: none; }
+          .rejest_wrap .rejest .login_content form .demo em {
+            font-style: normal;
+            position: absolute;
+            left: 0;
+            top: 65px;
+            font-size: 12px;
+            color: red; }
+        .rejest_wrap .rejest .login_content form .demo1 {
+          width: 100%;
+          position: relative;
+          height: 86px; }
+          .rejest_wrap .rejest .login_content form .demo1 p {
+            position: absolute;
+            left: 0;
+            top: 65px;
+            font-size: 12px;
+            display: none; }
+          .rejest_wrap .rejest .login_content form .demo1 input {
+            display: block;
+            width: 146px;
+            clear: both; }
+          .rejest_wrap .rejest .login_content form .demo1 .code, .rejest_wrap .rejest .login_content form .demo1 .phone {
+            width: 136px;
+            height: 40px;
+            position: absolute;
+            right: 0;
+            top: 20px;
+            display: block; }
+            .rejest_wrap .rejest .login_content form .demo1 .code #nums, .rejest_wrap .rejest .login_content form .demo1 .phone #nums {
+              display: block;
+              width: 83px;
+              height: 38px;
+              line-height: 38px;
+              float: left;
+              border: 1px solid;
+              text-align: center; }
+            .rejest_wrap .rejest .login_content form .demo1 .code #ma_id, .rejest_wrap .rejest .login_content form .demo1 .phone #ma_id {
+              font-size: 12px;
+              color: #a0a0a0;
+              text-decoration: underline; }
+        .rejest_wrap .rejest .login_content form .phone {
+          background: #ffaebb;
+          border: 1px solid #ff7c91;
+          color: #fff;
+          cursor: pointer;
+          border-radius: 4px;
+          text-align: center;
+          line-height: 38px; }
+        .rejest_wrap .rejest .login_content form .lw {
+          font-family: "Microsoft YaHei", 微软雅黑, 黑体;
+          color: #fff;
+          word-spacing: 8px;
+          letter-spacing: 1px;
+          background: red !important;
+          border-radius: 4px;
+          display: block;
+          cursor: pointer;
+          border: 1px solid #eee; }
